@@ -1,0 +1,30 @@
+# Node.js
+node_modules/
+
+# TypeScript
+dist/
+*.js
+*.js.map
+
+# Editor/IDE
+.vscode/
+.idea/
+
+# Dependency directory
+jspm_packages/
+
+# Logs and runtime data
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Output of 'npm pack'
+*.tgz
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
