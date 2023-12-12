@@ -18,8 +18,6 @@ const solveSecond = (input: Array<string>): string => {
 const solveFirst = (input: Array<string>): string => {
   const signMatrix = nj.zeros([input[0].length, input.length]);
   const indexMatrix = nj.zeros([input[0].length, input.length]).assign(-1);
-  indexMatrix.set(0, 1, 1);
-  indexMatrix.set(2, 0, 20);
   console.log(signMatrix);
   console.log(indexMatrix);
   const numbers: Int32List = [];
@@ -34,7 +32,9 @@ const solveFirst = (input: Array<string>): string => {
   //   om det är en punkt, spara i andra matrisen false
   //   om det är ett tecken spara i andra matrisen true
 
-  forEach(input, (line, row) => {});
+  forEach(input, (line, row) => {
+    forEach(line, (char, column) => {});
+  });
 
   return "";
 };
